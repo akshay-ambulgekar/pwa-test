@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.policies h1,
+.policies h2,
+.policies h3,
+.policies h4 .policies h5 {
+  color: #282827;
+  letter-spacing: -0.025rem;
+  font-weight: 600;
+}
+
+.policies h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.policies h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.policies h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.policies h4 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.policies h5 {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.policies p {
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  color: #282827;
+}
+
+.policies a {
+  text-decoration: underline;
+}
+
+.policies ul {
+  list-style-type: disc;
+  padding: 0px 0.7rem;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  color: #282827;
+}
+
+.policies ol {
+  list-style-type: disc;
+  padding: 0px 0.7rem;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  color: #282827;
+}/*# sourceMappingURL=policies.css.map */

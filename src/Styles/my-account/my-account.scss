@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.new-user-page-hero-gradient {
+    background: conic-gradient(from 209.19deg at 50.89% 50%, #F1EEE9 0deg, #EEECEA 97.6deg, #FFFFFF 169.2deg, #DFDCD6 251.29deg, #F5F2EC 360deg);
+    box-shadow: 0px 4px 6px -2px #0000000D;
+    box-shadow: 0px 10px 15px -3px #0000001A;
+}
+
+.new-user-page-footer-gradient {
+    background: linear-gradient(180deg, rgba(253, 251, 248, 0) 0%, #FDFBF8 100%);
+}
+
+.login-button-gradient {
+    box-shadow: 0px 1px 2px 0px #0000000D;
+}

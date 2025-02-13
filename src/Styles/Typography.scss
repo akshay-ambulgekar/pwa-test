@@ -1,0 +1,525 @@
+// Font Variables
+
+// body xs
+$body-xs-size: 0.625rem; // 10px
+$body-xs-lineheight: 1rem; // 16px
+
+// body 
+$body-sm-size: 0.75rem; // 12px
+$body-sm-lineheight: 1.125rem; // 18px
+
+$body-size: 0.875rem; // 14px
+$body-lineheight: 1.25rem; // 20px
+
+//serif body
+$serif-body-size: 1.25rem; // 20px
+$serif-body-lineheight: 2rem; // 32px
+
+// all caps 
+$all-caps-10-size: 0.625rem; // 10px
+$all-caps-10-lineheight: 0.875rem; // 14px
+$all-caps-letterspacing: 0.05rem; // 0.8px
+
+$all-caps-12-size: 0.75rem; // 12px
+$all-caps-12-lineheight: 1rem; // 16px
+
+$all-caps-14-size: 0.875rem; // 14px
+$all-caps-14-lineheight: 1.125rem; // 18px
+
+
+//h1
+$heading-h1-size: 1.875rem; // 30px
+$heading-h1-lineheight: 2.25rem; // 36px
+$heading-tags-letterspacing: -0.025rem; // -0.4px
+
+//h2
+$heading-h2-size: 1.5rem; // 24px
+$heading-h2-lineheight: 2rem; // 32px
+
+//h3
+$heading-h3-size: 1.25rem; // 20px
+$heading-h3-lineheight: 1.75rem; // 28px
+
+//h4
+$heading-h4-size: 1.125rem; // 18px
+$heading-h4-lineheight: 1.5rem; // 24px
+
+//h5
+$heading-h5-size: 1rem; // 16px
+$heading-h5-lineheight: 1.25rem; // 20px
+
+
+// Body xs (body-xs)
+.body-xs,
+.body-xs-bold {
+  font-size: $body-sm-size;
+  line-height: $body-sm-lineheight;
+}
+
+// Body Small (body-sm)
+.body-sm,
+.body-sm-bold {
+  font-size: $body-sm-size;
+  line-height: $body-sm-lineheight;
+}
+
+.body-sm-bold {
+  font-weight: 600;
+}
+
+//body
+.body,
+.body-bold {
+  font-size: $body-size;
+  line-height: $body-lineheight;
+}
+
+
+//serif body
+.serif-body {
+  font-size: $serif-body-size;
+  line-height: $serif-body-lineheight;
+}
+
+// for bold classes
+.body-bold,
+.body-xs-bold,
+.body-sm-bold,
+.all-caps-10-bold,
+.all-caps-12-bold,
+.all-caps-14-bold {
+  font-weight: 600;
+}
+
+// All Caps 10
+.all-caps-10,
+.all-caps-10-bold {
+  font-size: $all-caps-10-size;
+  line-height: $all-caps-10-lineheight;
+  text-transform: uppercase;
+  letter-spacing: $all-caps-letterspacing;
+}
+
+.all-caps-10-bold {
+  font-weight: 600;
+}
+
+// All Caps 12
+.all-caps-12,
+.all-caps-12-bold {
+  font-size: $all-caps-12-size;
+  line-height: $all-caps-12-lineheight;
+  text-transform: uppercase;
+  letter-spacing: $all-caps-letterspacing;
+}
+
+// All Caps 14
+.all-caps-14,
+.all-caps-14-bold {
+  font-size: $all-caps-14-size;
+  line-height: $all-caps-14-lineheight;
+  text-transform: uppercase;
+  letter-spacing: $all-caps-letterspacing;
+
+}
+
+// Heading H1
+.heading-h1 {
+  font-size: $heading-h1-size;
+  line-height: $heading-h1-lineheight;
+  letter-spacing: $heading-tags-letterspacing;
+  font-weight: 600;
+}
+
+// Heading H2
+.heading-h2 {
+  font-size: $heading-h2-size;
+  line-height: $heading-h2-lineheight;
+  letter-spacing: $heading-tags-letterspacing;
+  font-weight: 600;
+}
+
+// Heading H3
+.heading-h3 {
+  font-size: $heading-h3-size;
+  line-height: $heading-h3-lineheight;
+  letter-spacing: $heading-tags-letterspacing;
+  font-weight: 600;
+}
+
+// Heading H4
+.heading-h4 {
+  font-size: $heading-h4-size;
+  line-height: $heading-h4-lineheight;
+  letter-spacing: $heading-tags-letterspacing;
+  font-weight: 600;
+}
+
+// Heading H5
+.heading-h5 {
+  font-size: $heading-h5-size;
+  line-height: $heading-h5-lineheight;
+  letter-spacing: $heading-tags-letterspacing;
+  font-weight: 600;
+}
+
+//colors
+$white: #FFFFFF;
+$grey50: #FDFBF8;
+$grey100: #F3F1ED;
+$grey200: #EBE7E1;
+$grey300: #E0DCD7;
+$grey400: #D7D4CF;
+$grey500: #B2B0AE;
+$grey600: #757575;
+$grey700: #525456;
+$grey800: #3D3E40;
+$grey900: #282827;
+$grey950: #1A1917;
+$green: #00FF95;
+$alert: #E13A3A;
+$crimson-red: #E23744;
+
+$toaster-border: #FFFFFF4D;
+$blue-sapphire: #206FAB;
+$alice-blue: #F5F9FC;
+$light-sky-blue:#E5F1FB;
+$light-grey:#F2F2F2;
+$vivid-blue:#0075DA;
+$dim-grey:#7D7D7D;
+
+
+
+// for Flix Dark Footer
+$flix-footer-background: #1a1917cf;
+
+//for Flix Toaster
+$flix-toaster-background: #1A1917CC;
+
+
+.flix-footer-dark-fradient {
+  background: #1a1917cf;
+  box-shadow: 0px 1px 2px 0px #0000000F;
+  box-shadow: 0px 1px 3px 0px #0000001A;
+}
+
+.footer-border-dark {
+  border: 0.5px solid rgba(255, 255, 255, 0.3);
+}
+
+
+// for Text Colors
+.custom-text-white {
+  color: $white;
+}
+
+.custom-text-grey50 {
+  color: $grey50;
+}
+
+.custom-text-grey100 {
+  color: $grey100;
+}
+
+.custom-text-grey200 {
+  color: $grey200;
+}
+
+.custom-text-grey300 {
+  color: $grey300;
+}
+
+.custom-text-grey400 {
+  color: $grey400;
+}
+
+.custom-text-grey500 {
+  color: $grey500;
+}
+
+.custom-text-grey600 {
+  color: $grey600;
+}
+
+.custom-text-grey700 {
+  color: $grey700;
+}
+
+.custom-text-grey800 {
+  color: $grey800;
+}
+
+.custom-text-grey900 {
+  color: $grey900;
+}
+
+.custom-text-grey950 {
+  color: $grey950;
+}
+
+.custom-text-green {
+  color: $green;
+}
+
+.custom-text-alert {
+  color: $alert;
+}
+
+.custom-text-vivid-blue {
+  color: $vivid-blue;
+}
+
+.custom-text-dim-grey {
+  color: $dim-grey;
+}
+
+
+
+
+
+//for border colors
+.custom-border-white {
+  border-color: $white;
+}
+
+.custom-border-grey50 {
+  border-color: $grey50;
+}
+
+.custom-border-grey100 {
+  border-color: $grey100;
+}
+
+.custom-border-grey200 {
+  border-color: $grey200;
+}
+
+.custom-border-grey300 {
+  border-color: $grey300;
+}
+
+.custom-border-grey400 {
+  border-color: $grey400;
+}
+
+.custom-border-grey500 {
+  border-color: $grey500;
+}
+
+.custom-border-grey600 {
+  border-color: $grey600;
+}
+
+.custom-border-grey700 {
+  border-color: $grey700;
+}
+
+.custom-border-grey800 {
+  border-color: $grey800;
+}
+
+.custom-border-grey900 {
+  border-color: $grey900;
+}
+
+.custom-border-grey950 {
+  border-color: $grey950;
+}
+
+.custom-border-green {
+  border-color: $green;
+}
+
+.custom-border-alert {
+  border-color: $alert;
+}
+
+.custom-border-toaster {
+  border-color: $toaster-border;
+}
+
+.custom-border-blue-sapphire {
+  border-color: $blue-sapphire;
+}
+
+
+
+//small borders
+.small-border {
+  border-width: 0.3px !important;
+}
+
+.small-border-top {
+  border-top-width: 0.3px !important;
+}
+
+.small-border-bottom {
+  border-bottom-width: 0.3px !important;
+}
+
+.small-border-left {
+  border-left-width: 0.3px !important;
+}
+
+.small-border-right {
+  border-right-width: 0.3px !important;
+}
+
+.small-border-y {
+  border-top-width: 0.3px !important;
+  border-bottom-width: 0.3px !important;
+}
+
+.small-border-x {
+  border-left-width: 0.3px !important;
+  border-right-width: 0.3px !important;
+}
+
+// for Background Colors
+.background-custom-white {
+  background-color: $white;
+}
+
+.background-custom-grey50 {
+  background-color: $grey50;
+}
+
+.background-custom-grey100 {
+  background-color: $grey100;
+}
+
+.background-custom-grey200 {
+  background-color: $grey200;
+}
+
+.background-custom-grey300 {
+  background-color: $grey300;
+}
+
+.background-custom-grey400 {
+  background-color: $grey400;
+}
+
+.background-custom-grey500 {
+  background-color: $grey500;
+}
+
+.background-custom-grey600 {
+  background-color: $grey600;
+}
+
+.background-custom-grey700 {
+  background-color: $grey700;
+}
+
+.background-custom-grey800 {
+  background-color: $grey800;
+}
+
+.background-custom-grey900 {
+  background-color: $grey900;
+}
+
+.background-custom-grey950 {
+  background-color: $grey950;
+}
+
+.background-custom-green {
+  background-color: $green;
+}
+
+.background-custom-alert {
+  background-color: $alert;
+}
+
+.background-custom-flix-toaster {
+  background-color: $flix-toaster-background;
+}
+
+.background-custom-alice-blue {
+  background-color: $alice-blue;
+}
+
+.background-custom-light-sky-blue {
+  background-color: $light-sky-blue;
+}
+
+.background-custom-light-grey {
+  background-color: $light-grey;
+}
+
+.background-custom-crimson-red {
+  background-color: $crimson-red;
+}
+
+
+
+
+//custom body background color
+body {
+  background-color: $grey50;
+}
+
+
+//style for center container
+.page-center-parent-container {
+  // height: fit-content;
+  min-width: 360px;
+  min-height: 750px;
+  aspect-ratio: 16 / 9;
+  width: 52.7vh;
+  margin: 0 auto;
+  // max-height: 100vh;
+}
+
+@media screen and (max-width:640px) {
+  .page-center-parent-container {
+    min-width: 340px;
+    min-height: 560px;
+    width: 100%;
+  }
+}
+
+//additional common classes
+.overflow-scrollbar-hidden {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.store-button-shadow {
+  box-shadow: 0px 1px 2px 0px #0000000D;
+}
+
+.snap-x-custom {
+  scroll-snap-type: x mandatory;
+}
+
+.snap-start-custom {
+  scroll-snap-align: start;
+}
+
+.get-light-img {
+  filter: brightness(100);
+}
+
+.vh100 {
+  height: 100vh;
+}
+
+.min-vh100 {
+  min-height: 100vh;
+}
+
+.vh-auto {
+  height: auto;
+}
+
+//blog page shared from link
+.for-flixBlock {
+  display: block !important;
+  position: static !important;
+  min-height: 100dvh;
+  margin: 0 auto;
+}
+

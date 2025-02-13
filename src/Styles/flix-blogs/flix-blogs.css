@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Hide scrollbar for all elements */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.flix-blog h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  letter-spacing: -0.025rem;
+  font-weight: 600;
+  color: #282827;
+}
+
+.flix-blog h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: -0.025rem;
+  font-weight: 600;
+  color: #282827;
+}
+
+.flix-blog h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  line-height: -0.4px;
+  color: #282827;
+}
+
+.flix-blog p {
+  font-size: 1.125rem;
+  line-height: 2rem;
+  color: #757575;
+  font-family: "Noto Serif", serif !important;
+}
+
+.flix-blog strong {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  line-height: -0.4px;
+  color: #282827;
+}
+
+.flix-blog img {
+  padding: 20px 0px;
+  width: 100%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.for-flixBlock {
+  position: static;
+}/*# sourceMappingURL=flix-blogs.css.map */

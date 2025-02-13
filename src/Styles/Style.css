@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+}
+
+.page-center-parent-container {
+  height: 100vh;
+  min-width: 200px;
+  overflow: hidden;
+  min-height: 560px;
+  aspect-ratio: 16/9;
+  width: 52.7vh;
+}/*# sourceMappingURL=Style.css.map */

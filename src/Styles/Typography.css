@@ -1,0 +1,400 @@
+.body-xs,
+.body-xs-bold {
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+
+.body-sm,
+.body-sm-bold {
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+
+.body-sm-bold {
+  font-weight: 600;
+}
+
+.body,
+.body-bold {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.serif-body {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.body-bold,
+.body-xs-bold,
+.body-sm-bold,
+.all-caps-10-bold,
+.all-caps-12-bold,
+.all-caps-14-bold {
+  font-weight: 600;
+}
+
+.all-caps-10,
+.all-caps-10-bold {
+  font-size: 0.625rem;
+  line-height: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+.all-caps-10-bold {
+  font-weight: 600;
+}
+
+.all-caps-12,
+.all-caps-12-bold {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+.all-caps-14,
+.all-caps-14-bold {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+.heading-h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  letter-spacing: -0.025rem;
+  font-weight: 600;
+}
+
+.heading-h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: -0.025rem;
+  font-weight: 600;
+}
+
+.heading-h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: -0.025rem;
+  font-weight: 600;
+}
+
+.heading-h4 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.025rem;
+  font-weight: 600;
+}
+
+.heading-h5 {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  letter-spacing: -0.025rem;
+  font-weight: 600;
+}
+
+.flix-footer-dark-fradient {
+  background: rgba(26, 25, 23, 0.8117647059);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.0588235294);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1019607843);
+}
+
+.footer-border-dark {
+  border: 0.5px solid rgba(255, 255, 255, 0.3);
+}
+
+.custom-text-white {
+  color: #FFFFFF;
+}
+
+.custom-text-grey50 {
+  color: #FDFBF8;
+}
+
+.custom-text-grey100 {
+  color: #F3F1ED;
+}
+
+.custom-text-grey200 {
+  color: #EBE7E1;
+}
+
+.custom-text-grey300 {
+  color: #E0DCD7;
+}
+
+.custom-text-grey400 {
+  color: #D7D4CF;
+}
+
+.custom-text-grey500 {
+  color: #B2B0AE;
+}
+
+.custom-text-grey600 {
+  color: #757575;
+}
+
+.custom-text-grey700 {
+  color: #525456;
+}
+
+.custom-text-grey800 {
+  color: #3D3E40;
+}
+
+.custom-text-grey900 {
+  color: #282827;
+}
+
+.custom-text-grey950 {
+  color: #1A1917;
+}
+
+.custom-text-green {
+  color: #00FF95;
+}
+
+.custom-text-alert {
+  color: #E13A3A;
+}
+
+.custom-text-vivid-blue {
+  color: #0075DA;
+}
+
+.custom-text-dim-grey {
+  color: #7D7D7D;
+}
+
+.custom-border-white {
+  border-color: #FFFFFF;
+}
+
+.custom-border-grey50 {
+  border-color: #FDFBF8;
+}
+
+.custom-border-grey100 {
+  border-color: #F3F1ED;
+}
+
+.custom-border-grey200 {
+  border-color: #EBE7E1;
+}
+
+.custom-border-grey300 {
+  border-color: #E0DCD7;
+}
+
+.custom-border-grey400 {
+  border-color: #D7D4CF;
+}
+
+.custom-border-grey500 {
+  border-color: #B2B0AE;
+}
+
+.custom-border-grey600 {
+  border-color: #757575;
+}
+
+.custom-border-grey700 {
+  border-color: #525456;
+}
+
+.custom-border-grey800 {
+  border-color: #3D3E40;
+}
+
+.custom-border-grey900 {
+  border-color: #282827;
+}
+
+.custom-border-grey950 {
+  border-color: #1A1917;
+}
+
+.custom-border-green {
+  border-color: #00FF95;
+}
+
+.custom-border-alert {
+  border-color: #E13A3A;
+}
+
+.custom-border-toaster {
+  border-color: rgba(255, 255, 255, 0.3019607843);
+}
+
+.custom-border-blue-sapphire {
+  border-color: #206FAB;
+}
+
+.small-border {
+  border-width: 0.3px !important;
+}
+
+.small-border-top {
+  border-top-width: 0.3px !important;
+}
+
+.small-border-bottom {
+  border-bottom-width: 0.3px !important;
+}
+
+.small-border-left {
+  border-left-width: 0.3px !important;
+}
+
+.small-border-right {
+  border-right-width: 0.3px !important;
+}
+
+.small-border-y {
+  border-top-width: 0.3px !important;
+  border-bottom-width: 0.3px !important;
+}
+
+.small-border-x {
+  border-left-width: 0.3px !important;
+  border-right-width: 0.3px !important;
+}
+
+.background-custom-white {
+  background-color: #FFFFFF;
+}
+
+.background-custom-grey50 {
+  background-color: #FDFBF8;
+}
+
+.background-custom-grey100 {
+  background-color: #F3F1ED;
+}
+
+.background-custom-grey200 {
+  background-color: #EBE7E1;
+}
+
+.background-custom-grey300 {
+  background-color: #E0DCD7;
+}
+
+.background-custom-grey400 {
+  background-color: #D7D4CF;
+}
+
+.background-custom-grey500 {
+  background-color: #B2B0AE;
+}
+
+.background-custom-grey600 {
+  background-color: #757575;
+}
+
+.background-custom-grey700 {
+  background-color: #525456;
+}
+
+.background-custom-grey800 {
+  background-color: #3D3E40;
+}
+
+.background-custom-grey900 {
+  background-color: #282827;
+}
+
+.background-custom-grey950 {
+  background-color: #1A1917;
+}
+
+.background-custom-green {
+  background-color: #00FF95;
+}
+
+.background-custom-alert {
+  background-color: #E13A3A;
+}
+
+.background-custom-flix-toaster {
+  background-color: rgba(26, 25, 23, 0.8);
+}
+
+.background-custom-alice-blue {
+  background-color: #F5F9FC;
+}
+
+.background-custom-light-sky-blue {
+  background-color: #E5F1FB;
+}
+
+.background-custom-light-grey {
+  background-color: #F2F2F2;
+}
+
+.background-custom-crimson-red {
+  background-color: #E23744;
+}
+
+body {
+  background-color: #FDFBF8;
+}
+
+.page-center-parent-container {
+  min-width: 360px;
+  min-height: 750px;
+  aspect-ratio: 16/9;
+  width: 52.7vh;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 640px) {
+  .page-center-parent-container {
+    min-width: 340px;
+    min-height: 560px;
+    width: 100%;
+  }
+}
+.overflow-scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.store-button-shadow {
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.0509803922);
+}
+
+.snap-x-custom {
+  scroll-snap-type: x mandatory;
+}
+
+.snap-start-custom {
+  scroll-snap-align: start;
+}
+
+.get-light-img {
+  filter: brightness(100);
+}
+
+.vh100 {
+  height: 100vh;
+}
+
+.min-vh100 {
+  min-height: 100vh;
+}
+
+.vh-auto {
+  height: auto;
+}
+
+.for-flixBlock {
+  display: block !important;
+  position: static !important;
+  min-height: 100dvh;
+  margin: 0 auto;
+}/*# sourceMappingURL=Typography.css.map */

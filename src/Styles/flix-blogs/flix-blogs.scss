@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Hide scrollbar for all elements */
+::-webkit-scrollbar {
+    display: none;
+}
+
+// .flix-blog-main-container {
+//     width: 100%;
+//     // padding-top: 1.5rem;
+//     // padding-left: 1.5rem;
+//     // padding-right: 1.5rem;
+//     padding-bottom: 3.5rem;
+//     display: flex;
+//     flex-direction: column;
+//     border-left: 0.5px solid #3D3E40;
+//     border-right: 0.5px solid #3D3E40;
+//     scroll-behavior: smooth;
+// }
+
+
+.flix-blog h1 {
+    font-size: 1.875rem; // 30px
+    line-height: 2.25rem; // 36px
+    letter-spacing: -0.025rem; // -0.4px
+    font-weight: 600;
+    color: #282827;
+}
+
+
+.flix-blog h2 {
+    font-size: 1.25rem; // 20px
+    line-height: 1.75rem; // 28px
+    letter-spacing: -0.025rem; // -0.4px
+    font-weight: 600;
+    color: #282827;
+}
+
+
+.flix-blog h3 {
+    font-size: 1.25rem; // 20px ;
+    line-height: 1.75rem; // 28px;
+    font-weight: 600;
+    line-height: -0.4px;
+    color: #282827;
+}
+
+.flix-blog p {
+    font-size: 1.125rem; // 18px;
+    line-height: 2rem; // 32px;
+    // font-weight: 400;
+    // color: #282827;
+    //  color: #3D3E40; //grey800
+    // color: #706c61;
+    color: #757575;
+    // color: #484747;
+    font-family: 'Noto Serif', serif !important;
+}
+
+.flix-blog strong {
+    font-size: 1.25rem; // 20px ;
+    line-height: 1.75rem; // 28px;
+    font-weight: 600;
+    line-height: -0.4px;
+    color: #282827;
+}
+
+.flix-blog img {
+    padding: 20px 0px;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+.for-flixBlock{
+    // display: block !important;
+    position: static;
+}
+// .scroll-up-animation {
+//     animation: scrollUp 1000ms ease-in-out;
+//   }

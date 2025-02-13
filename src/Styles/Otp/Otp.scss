@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.otp-input-fields{
+    &::-webkit-inner-spin-button,&::-webkit-outer-spin-button{
+        display: none;
+    }
+}
